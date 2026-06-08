@@ -1,6 +1,7 @@
 {
   "name": "@qa-sandbox/advanced",
   "version": "1.0.0",
+  "type": "module",
   "description": "QA Sandbox Playwright automation framework",
   "main": "index.js",
   "directories": {
@@ -8,6 +9,8 @@
   },
   "scripts": {
     "test": "npx playwright test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test:ui": "npx playwright test --project=ui-chromium",
     "test:api": "npx playwright test --project=api",
     "test:dev": "TEST_ENV=dev npx playwright test",
@@ -31,9 +34,13 @@
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
+    "@typescript-eslint/eslint-plugin": "^8.61.0",
+    "@typescript-eslint/parser": "^8.61.0",
     "allure-commandline": "^2.42.1",
     "allure-playwright": "^3.0.0",
     "dotenv": "^16.4.7",
+    "eslint": "^10.4.1",
+    "eslint-plugin-playwright": "^2.10.4",
     "pino": "^9.6.0",
     "pino-pretty": "^13.0.0",
     "tsx": "^4.19.0",

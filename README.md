@@ -250,15 +250,27 @@ It exits with code `1` if any anomalies are found, which fails the CI pipeline s
 
 Tests run automatically on every push and pull request to `main` and `master` via GitHub Actions.
 
-The pipeline:
+The pipeline runs three jobs:
 
-1. Installs Node.js dependencies and Playwright browsers
-2. Runs the full test suite
-3. Runs the HAR performance analysis
-4. Generates the Allure HTML report
-5. Uploads the following artifacts (retained for 30 days):
-   - `allure-report` — full HTML report, downloadable and openable directly
-   - `test-artifacts` — raw Allure results and HAR files for debugging
+**1. `lint`** — runs ESLint and fails fast if any code quality violations are found.
+
+**2. `test`** — runs in parallel across 4 matrix jobs simultaneously:
+
+| Job | Project | Scope |
+|-----|---------|-------|
+| `test (api)` | `api` | All API tests |
+| `test (ui-chromium)` | `ui-chromium` | All UI tests on Chrome |
+| `test (ui-firefox)` | `ui-firefox` | All UI tests on Firefox |
+| `test (ui-webkit)` | `ui-webkit` | All UI tests on Safari/WebKit |
+
+Each job runs independently with `fail-fast: false`, meaning all browsers complete even if one fails. Each job uploads its own Allure results and HAR files as artifacts.
+
+**3. `report`** — runs after all test jobs complete (even on failure), merges all Allure results from every browser, generates a single combined HTML report and deploys it to **GitHub Pages**.
+
+The live report is accessible at:
+```
+https://<your-github-username>.github.io/<repository-name>/
+```
 
 ### Required GitHub Secrets
 
@@ -269,3 +281,26 @@ Set the following secrets in your repository under **Settings → Secrets and va
 | `BASE_URL` | Application base URL |
 | `USER_EMAIL` | Test user email |
 | `USER_PASSWORD` | Test user password |
+
+### Enable GitHub Pages
+
+Before the first deployment, enable GitHub Pages in your repository:
+
+1. Go to **Settings → Pages**
+2. Under **Source**, select **GitHub Actions**
+3. Save — the report will be published automatically on the next pipeline run.
+
+---
+
+## Nightly Build
+
+A separate pipeline (`nightly.yml`) runs the full test suite automatically every night at **02:00 UTC**.
+
+It follows the same parallel matrix strategy as the main pipeline and deploys its own Allure report to GitHub Pages, overwriting the previous nightly report.
+
+The nightly pipeline can also be triggered manually from the **Actions** tab using **Run workflow**.
+
+| Trigger | Schedule |
+|---------|----------|
+| Automatic | Every day at 02:00 UTC |
+| Manual | GitHub Actions → Nightly Tests → Run workflow |

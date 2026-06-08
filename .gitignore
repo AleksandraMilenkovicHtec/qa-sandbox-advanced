@@ -3,6 +3,8 @@ node_modules/
 
 # Environment
 .env
+.env.*
+!.env.example
 
 # Playwright
 /test-results/
@@ -10,6 +12,11 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Reports
+reports/allure-report
+reports/allure-results
+reports/har/
 
 # Build
 dist/

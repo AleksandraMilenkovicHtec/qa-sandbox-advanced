@@ -6,7 +6,9 @@ import { TestCaseResponseSchema } from '../../src/schemas';
 
 const findByTitle = (body: unknown, title: string) => {
   const all = Array.isArray(body) ? body : [body];
-  return all.find((tc: { title: string }) => tc.title === title)!;
+  const found = all.find((tc: { title: string }) => tc.title === title);
+  if (!found) throw new Error(`Test case with title "${title}" not found in response`);
+  return found;
 };
 
 test.describe('Test Case API', () => {
