@@ -1,8 +1,8 @@
-import tseslint from '@typescript-eslint/eslint-plugin';
-import tsparser from '@typescript-eslint/parser';
-import playwright from 'eslint-plugin-playwright';
+const tseslint = require('@typescript-eslint/eslint-plugin');
+const tsparser = require('@typescript-eslint/parser');
+const playwright = require('eslint-plugin-playwright');
 
-export default [
+module.exports = [
   {
     ignores: ['node_modules/', 'dist/', 'reports/', 'playwright/.auth/'],
   },
@@ -12,7 +12,6 @@ export default [
       parser: tsparser,
       parserOptions: {
         project: './tsconfig.json',
-        tsconfigRootDir: import.meta.dirname,
       },
     },
     plugins: {
