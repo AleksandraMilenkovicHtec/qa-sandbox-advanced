@@ -9,6 +9,11 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    environment: qa
+    env:
+      BASE_URL: ${{ secrets.BASE_URL }}
+      USER_EMAIL: ${{ secrets.USER_EMAIL }}
+      USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
 
@@ -27,10 +32,6 @@ jobs:
 
       - name: Run Playwright tests
         run: npx playwright test
-        env:
-          BASE_URL: ${{ secrets.BASE_URL }}
-          USER_EMAIL: ${{ secrets.USER_EMAIL }}
-          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
 
       - name: Analyze HAR files (performance check)
         if: always()
