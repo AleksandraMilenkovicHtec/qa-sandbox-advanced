@@ -11,6 +11,7 @@ test.describe('Login - Functional', () => {
     context: async ({ browser }, use) => {
       const context = await browser.newContext({
         recordHar: { path: HAR_PATH, urlFilter: /api/ },
+        recordVideo: { dir: 'test-results/videos' },
         storageState: { cookies: [], origins: [] },
       });
       await use(context);
