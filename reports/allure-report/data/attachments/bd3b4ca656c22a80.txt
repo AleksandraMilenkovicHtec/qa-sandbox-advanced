@@ -1,0 +1,4 @@
+[2026-06-09 00:31:36] INFO: INFO: Fill in email and leave the password field empty
+[2026-06-09 00:31:36] INFO: PASS: Form submitted with empty password
+[2026-06-09 00:31:36] INFO: INFO: Verify password required error appears
+[2026-06-09 00:31:36] INFO: PASS: Password required validation error displayed

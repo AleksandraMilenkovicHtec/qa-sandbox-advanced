@@ -1,0 +1,12 @@
+[2026-06-09 00:31:35] INFO: WARN: 1 anomaly(s) found
+[2026-06-09 00:31:35] INFO:   ⚠ ERROR: POST /api/candidate/login status 401
+[2026-06-09 00:31:35] INFO: INFO: Open the new test case form
+[2026-06-09 00:31:36] INFO: PASS: New test case form loaded
+[2026-06-09 00:31:36] INFO: INFO: Fill required fields and add three test steps
+[2026-06-09 00:31:36] INFO: PASS: Three test steps added
+[2026-06-09 00:31:36] INFO: INFO: Submit the form to create the test case
+[2026-06-09 00:31:36] INFO: PASS: Form submitted successfully
+[2026-06-09 00:31:36] INFO: INFO: Verify the new test case appears in the test case list
+[2026-06-09 00:31:36] INFO: PASS: Test case with multiple steps visible in the list
+[2026-06-09 00:31:36] INFO: INFO: Delete test case "TC-yeu0v0" created during the test
+[2026-06-09 00:31:37] INFO: PASS: Test case "TC-yeu0v0" deleted

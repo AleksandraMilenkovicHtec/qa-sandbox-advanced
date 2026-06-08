@@ -1,0 +1,8 @@
+[2026-06-09 00:31:30] INFO: PASS: Test case creation request completed
+[2026-06-09 00:31:30] INFO: INFO: Verify test case is returned with correct data and schema
+[2026-06-09 00:31:30] INFO: PASS: Test case created with correct title and steps
+[2026-06-09 00:31:30] INFO: INFO: Submit test case with empty title field
+[2026-06-09 00:31:30] INFO: PASS: Request completed
+[2026-06-09 00:31:30] INFO: INFO: Verify server rejects request with validation error
+[2026-06-09 00:31:30] INFO: PASS: Validation error returned for missing title
+[2026-06-09 00:31:30] INFO: INFO: Delete 1 test case(s) created during tests

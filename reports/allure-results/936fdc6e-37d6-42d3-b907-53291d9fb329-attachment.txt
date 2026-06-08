@@ -1,0 +1,15 @@
+[2026-06-09 00:32:17] INFO: INFO: Fill title and test step, leave expected result empty
+[2026-06-09 00:32:17] INFO: PASS: Fields filled without expected result
+[2026-06-09 00:32:17] INFO: INFO: Submit the form with no expected result entered
+[2026-06-09 00:32:17] INFO: PASS: Form submitted
+[2026-06-09 00:32:17] INFO: INFO: Verify a validation error is shown for the missing expected result
+[2026-06-09 00:32:17] INFO: PASS: Expected result required error displayed, form not submitted
+[2026-06-09 00:32:19] INFO: INFO: Fill required fields and add three steps in a specific order
+[2026-06-09 00:32:19] INFO: PASS: Three steps added in order
+[2026-06-09 00:32:19] INFO: INFO: Submit the form to save the test case
+[2026-06-09 00:32:19] INFO: PASS: Test case saved
+[2026-06-09 00:32:19] INFO: INFO: Fetch the saved test case from the API and check step order
+[2026-06-09 00:32:19] INFO: INFO: Send login request for user aleksandra.milenkovic@htecgroup.com
+[2026-06-09 00:32:19] INFO: PASS: Login successful, token stored
+[2026-06-09 00:32:19] INFO: PASS: Test steps returned in the same order they were entered
+[2026-06-09 00:32:19] INFO: INFO: Delete test case "TC-u48zuo" via the edit page

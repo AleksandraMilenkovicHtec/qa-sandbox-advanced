@@ -1,0 +1,12 @@
+[2026-06-09 00:31:58] INFO: INFO: Fill expected result and test step, leave the title empty
+[2026-06-09 00:31:58] INFO: PASS: Fields filled without title
+[2026-06-09 00:31:58] INFO: INFO: Submit the form with no title entered
+[2026-06-09 00:31:58] INFO: PASS: Form submitted
+[2026-06-09 00:31:58] INFO: INFO: Verify a validation error is shown for the missing title
+[2026-06-09 00:31:58] INFO: PASS: Title required error displayed, form not submitted
+[2026-06-09 00:31:59] INFO: INFO: Fill title and test step, leave expected result empty
+[2026-06-09 00:31:59] INFO: PASS: Fields filled without expected result
+[2026-06-09 00:31:59] INFO: INFO: Submit the form with no expected result entered
+[2026-06-09 00:31:59] INFO: PASS: Form submitted
+[2026-06-09 00:31:59] INFO: INFO: Verify a validation error is shown for the missing expected result
+[2026-06-09 00:31:59] INFO: PASS: Expected result required error displayed, form not submitted

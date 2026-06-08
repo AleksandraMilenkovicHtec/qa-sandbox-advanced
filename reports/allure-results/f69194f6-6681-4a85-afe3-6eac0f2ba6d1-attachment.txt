@@ -1,0 +1,12 @@
+[2026-06-09 00:32:05] INFO: INFO: Attempt login with wrong email and password
+[2026-06-09 00:32:06] INFO: PASS: Login form submitted
+[2026-06-09 00:32:06] INFO: INFO: Verify error message appears and user stays on login page
+[2026-06-09 00:32:06] INFO: PASS: Error message displayed, user remains on login page
+[2026-06-09 00:32:06] INFO: WARN: 1 anomaly(s) found
+[2026-06-09 00:32:06] INFO:   ⚠ ERROR: POST /api/candidate/login status 401
+[2026-06-09 00:32:07] INFO: INFO: Intercept outgoing API requests to detect backend calls
+[2026-06-09 00:32:07] INFO: PASS: Network interception set up
+[2026-06-09 00:32:07] INFO: INFO: Click the login button without filling any fields
+[2026-06-09 00:32:07] INFO: PASS: Login button clicked
+[2026-06-09 00:32:07] INFO: INFO: Verify frontend validation errors appear without calling the backend
+[2026-06-09 00:32:07] INFO: PASS: Validation errors shown, no backend request made

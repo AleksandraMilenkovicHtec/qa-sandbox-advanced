@@ -1,0 +1,4 @@
+[2026-06-09 00:31:29] INFO: INFO: Send login request to obtain auth token
+[2026-06-09 00:31:29] INFO: INFO: Send login request for user aleksandra.milenkovic@htecgroup.com
+[2026-06-09 00:31:30] INFO: PASS: Login successful, token stored
+[2026-06-09 00:31:30] INFO: INFO: Write auth tokens to browser localStorage

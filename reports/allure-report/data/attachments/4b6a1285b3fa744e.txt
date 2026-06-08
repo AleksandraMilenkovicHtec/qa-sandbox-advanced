@@ -1,0 +1,8 @@
+[2026-06-09 00:31:29] INFO: PASS: Login request completed
+[2026-06-09 00:31:29] INFO: INFO: Verify response returns 200 with a valid token
+[2026-06-09 00:31:29] INFO: PASS: Token received and response schema valid
+[2026-06-09 00:31:29] INFO: INFO: Create API context and log in test user
+[2026-06-09 00:31:29] INFO: INFO: Send login request for user aleksandra.milenkovic@htecgroup.com
+[2026-06-09 00:31:29] INFO: PASS: Login successful, token stored
+[2026-06-09 00:31:29] INFO: PASS: User logged in, API client ready
+[2026-06-09 00:31:29] INFO: INFO: Submit new test case with title, description and two steps

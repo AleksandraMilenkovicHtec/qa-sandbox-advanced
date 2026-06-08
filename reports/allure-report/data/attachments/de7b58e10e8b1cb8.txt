@@ -1,0 +1,2 @@
+[2026-06-09 00:31:43] INFO: INFO: Read the current page URL and check the protocol
+[2026-06-09 00:31:43] INFO: PASS: Page URL uses HTTPS protocol

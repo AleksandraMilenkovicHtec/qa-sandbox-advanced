@@ -1,0 +1,15 @@
+[2026-06-09 00:31:38] INFO: INFO: Fill expected result and test step, leave the title empty
+[2026-06-09 00:31:38] INFO: PASS: Fields filled without title
+[2026-06-09 00:31:38] INFO: INFO: Submit the form with no title entered
+[2026-06-09 00:31:38] INFO: PASS: Form submitted
+[2026-06-09 00:31:38] INFO: INFO: Verify a validation error is shown for the missing title
+[2026-06-09 00:31:38] INFO: PASS: Title required error displayed, form not submitted
+[2026-06-09 00:31:39] INFO: INFO: Fill required fields and add three steps in a specific order
+[2026-06-09 00:31:39] INFO: PASS: Three steps added in order
+[2026-06-09 00:31:39] INFO: INFO: Submit the form to save the test case
+[2026-06-09 00:31:39] INFO: PASS: Test case saved
+[2026-06-09 00:31:39] INFO: INFO: Fetch the saved test case from the API and check step order
+[2026-06-09 00:31:39] INFO: INFO: Send login request for user aleksandra.milenkovic@htecgroup.com
+[2026-06-09 00:31:40] INFO: PASS: Login successful, token stored
+[2026-06-09 00:31:40] INFO: PASS: Test steps returned in the same order they were entered
+[2026-06-09 00:31:40] INFO: INFO: Delete test case "TC-hymbso" via the edit page

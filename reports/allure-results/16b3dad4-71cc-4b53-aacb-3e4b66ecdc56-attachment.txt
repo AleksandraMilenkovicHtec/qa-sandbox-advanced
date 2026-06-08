@@ -1,0 +1,14 @@
+[2026-06-09 00:32:10] INFO: INFO: Fill in email and leave the password field empty
+[2026-06-09 00:32:11] INFO: PASS: Form submitted with empty password
+[2026-06-09 00:32:11] INFO: INFO: Verify password required error appears
+[2026-06-09 00:32:11] INFO: PASS: Password required validation error displayed
+[2026-06-09 00:32:11] INFO: INFO: Open the new test case form
+[2026-06-09 00:32:12] INFO: PASS: New test case form loaded
+[2026-06-09 00:32:12] INFO: INFO: Fill in the title, expected result and one test step
+[2026-06-09 00:32:12] INFO: PASS: Required fields filled
+[2026-06-09 00:32:12] INFO: INFO: Submit the form to create the test case
+[2026-06-09 00:32:12] INFO: PASS: Form submitted successfully
+[2026-06-09 00:32:12] INFO: INFO: Verify the new test case appears in the test case list
+[2026-06-09 00:32:12] INFO: PASS: Test case visible in the list
+[2026-06-09 00:32:12] INFO: INFO: Delete test case "TC-30xt3t" created during the test
+[2026-06-09 00:32:12] INFO: PASS: Test case "TC-30xt3t" deleted

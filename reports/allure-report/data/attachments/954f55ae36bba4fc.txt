@@ -1,0 +1,7 @@
+[2026-06-09 00:31:49] INFO: PASS: New test case form loaded
+[2026-06-09 00:31:49] INFO: INFO: Check the default state of the Automated toggle
+[2026-06-09 00:31:49] INFO: PASS: Automated toggle is off by default
+[2026-06-09 00:31:50] INFO: INFO: Open the new test case form
+[2026-06-09 00:31:57] INFO: PASS: New test case form loaded
+[2026-06-09 00:31:57] INFO: INFO: Click the back arrow to navigate away from the form
+[2026-06-09 00:31:57] INFO: PASS: User returned to the test case list

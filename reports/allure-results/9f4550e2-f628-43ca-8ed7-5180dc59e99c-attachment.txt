@@ -1,0 +1,6 @@
+[2026-06-09 00:32:09] INFO: INFO: Read the type attribute of the password input field
+[2026-06-09 00:32:09] INFO: PASS: Password input type is "password", characters are masked
+[2026-06-09 00:32:10] INFO: INFO: Attempt login with a non-email string in the email field
+[2026-06-09 00:32:10] INFO: PASS: Login form submitted
+[2026-06-09 00:32:10] INFO: INFO: Verify an error message appears for the invalid email format
+[2026-06-09 00:32:10] INFO: PASS: Error message displayed for invalid email format

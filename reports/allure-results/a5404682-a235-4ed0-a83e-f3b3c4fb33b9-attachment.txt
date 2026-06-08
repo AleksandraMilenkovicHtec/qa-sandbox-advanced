@@ -1,0 +1,7 @@
+[2026-06-09 00:31:44] INFO: INFO: Intercept outgoing API requests to detect backend calls
+[2026-06-09 00:31:44] INFO: PASS: Network interception set up
+[2026-06-09 00:31:44] INFO: INFO: Click the login button without filling any fields
+[2026-06-09 00:31:44] INFO: PASS: Login button clicked
+[2026-06-09 00:31:44] INFO: INFO: Verify frontend validation errors appear without calling the backend
+[2026-06-09 00:31:44] INFO: PASS: Validation errors shown, no backend request made
+[2026-06-09 00:31:44] INFO: PASS: No anomalies detected

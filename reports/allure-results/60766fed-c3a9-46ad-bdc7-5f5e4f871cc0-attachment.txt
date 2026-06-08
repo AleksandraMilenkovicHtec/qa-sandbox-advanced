@@ -1,0 +1,6 @@
+[2026-06-09 00:31:37] INFO: INFO: Type a title in the title field
+[2026-06-09 00:31:37] INFO: PASS: Title entered
+[2026-06-09 00:31:37] INFO: INFO: Press Enter while the title field is focused
+[2026-06-09 00:31:37] INFO: PASS: Enter key pressed
+[2026-06-09 00:31:37] INFO: INFO: Verify the form was not submitted and the page did not change
+[2026-06-09 00:31:37] INFO: PASS: Form not submitted, user stays on the new test case page

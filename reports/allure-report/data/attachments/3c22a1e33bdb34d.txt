@@ -1,0 +1,4 @@
+[2026-06-09 00:31:45] INFO: INFO: Click the Admin link in the top navigation
+[2026-06-09 00:31:45] INFO: PASS: Admin link clicked
+[2026-06-09 00:31:45] INFO: INFO: Verify user is redirected to the admin login page
+[2026-06-09 00:31:45] INFO: PASS: User redirected to admin login page

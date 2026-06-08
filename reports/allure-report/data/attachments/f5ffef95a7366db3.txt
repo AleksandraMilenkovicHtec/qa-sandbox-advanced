@@ -1,0 +1,11 @@
+[2026-06-09 00:32:05] INFO: PASS: Test case "TC-0ay92f" deleted
+[2026-06-09 00:32:05] INFO: INFO: Open the new test case form
+[2026-06-09 00:32:06] INFO: PASS: New test case form loaded
+[2026-06-09 00:32:06] INFO: INFO: Fill required fields and enable the Automated toggle
+[2026-06-09 00:32:06] INFO: PASS: Required fields filled and Automated toggle enabled
+[2026-06-09 00:32:06] INFO: INFO: Submit the form to create the test case
+[2026-06-09 00:32:06] INFO: PASS: Form submitted successfully
+[2026-06-09 00:32:06] INFO: INFO: Verify the automated test case appears in the test case list
+[2026-06-09 00:32:06] INFO: PASS: Automated test case visible in the list
+[2026-06-09 00:32:06] INFO: INFO: Delete test case "TC-lc9pcd" created during the test
+[2026-06-09 00:32:07] INFO: PASS: Test case "TC-lc9pcd" deleted

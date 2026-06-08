@@ -1,0 +1,4 @@
+[2026-06-09 00:31:33] INFO: INFO: Read the current page URL and check the protocol
+[2026-06-09 00:31:33] INFO: PASS: Page URL uses HTTPS protocol
+[2026-06-09 00:31:34] INFO: INFO: Read the type attribute of the password input field
+[2026-06-09 00:31:34] INFO: PASS: Password input type is "password", characters are masked

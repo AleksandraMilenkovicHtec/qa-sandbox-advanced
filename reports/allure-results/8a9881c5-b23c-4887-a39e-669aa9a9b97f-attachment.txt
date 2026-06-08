@@ -1,0 +1,8 @@
+[2026-06-09 00:31:34] INFO: INFO: Log in with valid email and password
+[2026-06-09 00:31:34] INFO: PASS: Login form submitted
+[2026-06-09 00:31:34] INFO: INFO: Verify user is redirected to the dashboard
+[2026-06-09 00:31:34] INFO: PASS: User redirected to dashboard
+[2026-06-09 00:31:35] INFO: INFO: Attempt login with wrong email and password
+[2026-06-09 00:31:35] INFO: PASS: Login form submitted
+[2026-06-09 00:31:35] INFO: INFO: Verify error message appears and user stays on login page
+[2026-06-09 00:31:35] INFO: PASS: Error message displayed, user remains on login page

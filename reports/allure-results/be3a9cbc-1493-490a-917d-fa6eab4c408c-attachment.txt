@@ -1,0 +1,12 @@
+[2026-06-09 00:32:16] INFO: INFO: Check the Remember me toggle is visible on the page
+[2026-06-09 00:32:17] INFO: PASS: Remember me toggle is visible
+[2026-06-09 00:32:17] INFO: INFO: Click the toggle to enable Remember me
+[2026-06-09 00:32:17] INFO: PASS: Toggle is checked after clicking
+[2026-06-09 00:32:17] INFO: INFO: Click the toggle again to disable Remember me
+[2026-06-09 00:32:17] INFO: PASS: Toggle is unchecked after clicking again
+[2026-06-09 00:32:18] INFO: INFO: Fill title and expected result, leave test steps empty
+[2026-06-09 00:32:18] INFO: PASS: Fields filled without any test steps
+[2026-06-09 00:32:18] INFO: INFO: Submit the form with no test steps added
+[2026-06-09 00:32:18] INFO: PASS: Form submitted
+[2026-06-09 00:32:18] INFO: INFO: Verify a validation error is shown for the missing test steps
+[2026-06-09 00:32:18] INFO: PASS: Test step required error displayed, form not submitted

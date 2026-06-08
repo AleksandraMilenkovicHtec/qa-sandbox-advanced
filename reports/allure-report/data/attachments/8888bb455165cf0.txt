@@ -1,0 +1,5 @@
+[2026-06-09 00:31:35] INFO: PASS: No anomalies detected
+[2026-06-09 00:31:36] INFO: INFO: Submit the login form without filling any fields
+[2026-06-09 00:31:36] INFO: PASS: Empty form submitted
+[2026-06-09 00:31:36] INFO: INFO: Verify both email and password required errors appear
+[2026-06-09 00:31:36] INFO: PASS: Required field errors displayed for both email and password

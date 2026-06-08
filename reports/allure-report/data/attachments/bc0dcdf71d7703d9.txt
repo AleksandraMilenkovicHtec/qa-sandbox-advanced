@@ -1,0 +1,4 @@
+[2026-06-09 00:31:38] INFO: PASS: New test case form loaded
+[2026-06-09 00:31:38] INFO: INFO: Click the back arrow to navigate away from the form
+[2026-06-09 00:31:38] INFO: PASS: User returned to the test case list
+[2026-06-09 00:31:38] INFO: PASS: No anomalies detected

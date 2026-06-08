@@ -1,0 +1,7 @@
+[2026-06-09 00:31:29] INFO: PASS: Login successful, token stored
+[2026-06-09 00:31:29] INFO: PASS: User logged in, API client ready
+[2026-06-09 00:31:29] INFO: INFO: Submit test case with empty expected result field
+[2026-06-09 00:31:30] INFO: PASS: Request completed
+[2026-06-09 00:31:30] INFO: INFO: Verify server rejects request with validation error
+[2026-06-09 00:31:30] INFO: PASS: Validation error returned for missing expected result
+[2026-06-09 00:31:30] INFO: INFO: Submit test case with empty test steps array

@@ -1,0 +1,4 @@
+[2026-06-09 00:32:19] INFO: INFO: Open the new test case form
+[2026-06-09 00:32:21] INFO: PASS: New test case form loaded
+[2026-06-09 00:32:21] INFO: INFO: Check the default state of the Automated toggle
+[2026-06-09 00:32:21] INFO: PASS: Automated toggle is off by default

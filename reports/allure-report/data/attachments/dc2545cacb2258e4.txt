@@ -1,0 +1,15 @@
+[2026-06-09 00:31:35] INFO: INFO: Check the Remember me toggle is visible on the page
+[2026-06-09 00:31:35] INFO: PASS: Remember me toggle is visible
+[2026-06-09 00:31:35] INFO: INFO: Click the toggle to enable Remember me
+[2026-06-09 00:31:35] INFO: PASS: Toggle is checked after clicking
+[2026-06-09 00:31:35] INFO: INFO: Click the toggle again to disable Remember me
+[2026-06-09 00:31:35] INFO: PASS: Toggle is unchecked after clicking again
+[2026-06-09 00:31:35] INFO: INFO: Open the new test case form
+[2026-06-09 00:31:36] INFO: PASS: New test case form loaded
+[2026-06-09 00:31:36] INFO: INFO: Fill in the title, expected result and one test step
+[2026-06-09 00:31:36] INFO: PASS: Required fields filled
+[2026-06-09 00:31:36] INFO: INFO: Submit the form to create the test case
+[2026-06-09 00:31:37] INFO: PASS: Form submitted successfully
+[2026-06-09 00:31:37] INFO: INFO: Verify the new test case appears in the test case list
+[2026-06-09 00:31:37] INFO: PASS: Test case visible in the list
+[2026-06-09 00:31:37] INFO: INFO: Delete test case "TC-9led45" created during the test

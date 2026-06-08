@@ -1,0 +1,4 @@
+[2026-06-09 00:31:36] INFO: INFO: Attempt login with a non-email string in the email field
+[2026-06-09 00:31:36] INFO: PASS: Login form submitted
+[2026-06-09 00:31:36] INFO: INFO: Verify an error message appears for the invalid email format
+[2026-06-09 00:31:36] INFO: PASS: Error message displayed for invalid email format

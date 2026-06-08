@@ -1,0 +1,4 @@
+[2026-06-09 00:31:46] INFO: INFO: Read the placeholder text of the email input field
+[2026-06-09 00:31:46] INFO: PASS: Email field placeholder shows "Email"
+[2026-06-09 00:31:46] INFO: INFO: Read the placeholder text of the password input field
+[2026-06-09 00:31:46] INFO: PASS: Password field placeholder shows "Password"

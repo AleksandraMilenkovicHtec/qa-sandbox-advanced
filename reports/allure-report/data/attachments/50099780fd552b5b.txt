@@ -1,0 +1,6 @@
+[2026-06-09 00:31:47] INFO: INFO: Click the Login link in the top navigation
+[2026-06-09 00:31:47] INFO: PASS: Login link clicked
+[2026-06-09 00:31:47] INFO: INFO: Verify URL remains on the login page
+[2026-06-09 00:31:47] INFO: PASS: User remains on login page
+[2026-06-09 00:31:47] INFO: PASS: No anomalies detected
+[2026-06-09 00:31:48] INFO: INFO: Open the new test case form

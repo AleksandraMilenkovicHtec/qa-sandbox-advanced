@@ -1,0 +1,10 @@
+[2026-06-09 00:32:01] INFO: INFO: Fill required fields and add three steps in a specific order
+[2026-06-09 00:32:01] INFO: PASS: Three steps added in order
+[2026-06-09 00:32:01] INFO: INFO: Submit the form to save the test case
+[2026-06-09 00:32:01] INFO: PASS: Test case saved
+[2026-06-09 00:32:01] INFO: INFO: Fetch the saved test case from the API and check step order
+[2026-06-09 00:32:01] INFO: INFO: Send login request for user aleksandra.milenkovic@htecgroup.com
+[2026-06-09 00:32:01] INFO: PASS: Login successful, token stored
+[2026-06-09 00:32:02] INFO: PASS: Test steps returned in the same order they were entered
+[2026-06-09 00:32:02] INFO: INFO: Delete test case "TC-4zy3cn" via the edit page
+[2026-06-09 00:32:07] INFO: PASS: Test case "TC-4zy3cn" deleted

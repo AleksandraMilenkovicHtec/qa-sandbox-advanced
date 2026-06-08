@@ -1,0 +1,5 @@
+[2026-06-09 00:32:05] INFO: INFO: Click the Forgot Password link on the login page
+[2026-06-09 00:32:06] INFO: PASS: Forgot Password link clicked
+[2026-06-09 00:32:06] INFO: INFO: Verify user is redirected to the forgot password page
+[2026-06-09 00:32:06] INFO: PASS: User redirected to forgot password page
+[2026-06-09 00:32:06] INFO: PASS: No anomalies detected

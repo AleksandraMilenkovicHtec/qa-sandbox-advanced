@@ -1,0 +1,2 @@
+[2026-06-09 00:31:45] INFO: WARN: 1 anomaly(s) found
+[2026-06-09 00:31:45] INFO:   ⚠ ERROR: POST /api/candidate/login status 401

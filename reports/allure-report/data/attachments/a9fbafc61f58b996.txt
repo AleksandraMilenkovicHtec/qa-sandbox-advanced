@@ -1,0 +1,6 @@
+[2026-06-09 00:32:04] INFO: INFO: Enable the Remember me toggle before logging in
+[2026-06-09 00:32:04] INFO: PASS: Remember me toggle enabled
+[2026-06-09 00:32:04] INFO: INFO: Log in with valid credentials
+[2026-06-09 00:32:04] INFO: PASS: User logged in and on dashboard
+[2026-06-09 00:32:04] INFO: INFO: Verify session tokens are persisted in localStorage
+[2026-06-09 00:32:04] INFO: PASS: Session token and remember me flag stored in localStorage

@@ -1,0 +1,13 @@
+[2026-06-09 00:32:12] INFO: INFO: Submit the login form without filling any fields
+[2026-06-09 00:32:12] INFO: PASS: Empty form submitted
+[2026-06-09 00:32:12] INFO: INFO: Verify both email and password required errors appear
+[2026-06-09 00:32:12] INFO: PASS: Required field errors displayed for both email and password
+[2026-06-09 00:32:12] INFO: INFO: Open the new test case form
+[2026-06-09 00:32:13] INFO: PASS: New test case form loaded
+[2026-06-09 00:32:13] INFO: INFO: Fill required fields and add three test steps
+[2026-06-09 00:32:13] INFO: PASS: Three test steps added
+[2026-06-09 00:32:13] INFO: INFO: Submit the form to create the test case
+[2026-06-09 00:32:13] INFO: PASS: Form submitted successfully
+[2026-06-09 00:32:13] INFO: INFO: Verify the new test case appears in the test case list
+[2026-06-09 00:32:13] INFO: PASS: Test case with multiple steps visible in the list
+[2026-06-09 00:32:13] INFO: INFO: Delete test case "TC-tdwc6l" created during the test

@@ -1,0 +1,10 @@
+[2026-06-09 00:31:33] INFO: INFO: Enable the Remember me toggle before logging in
+[2026-06-09 00:31:33] INFO: PASS: Remember me toggle enabled
+[2026-06-09 00:31:33] INFO: INFO: Log in with valid credentials
+[2026-06-09 00:31:34] INFO: PASS: User logged in and on dashboard
+[2026-06-09 00:31:34] INFO: INFO: Verify session tokens are persisted in localStorage
+[2026-06-09 00:31:34] INFO: PASS: Session token and remember me flag stored in localStorage
+[2026-06-09 00:31:35] INFO: INFO: Click the Forgot Password link on the login page
+[2026-06-09 00:31:35] INFO: PASS: Forgot Password link clicked
+[2026-06-09 00:31:35] INFO: INFO: Verify user is redirected to the forgot password page
+[2026-06-09 00:31:35] INFO: PASS: User redirected to forgot password page

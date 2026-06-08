@@ -1,0 +1,11 @@
+[2026-06-09 00:31:34] INFO: INFO: Intercept outgoing API requests to detect backend calls
+[2026-06-09 00:31:34] INFO: PASS: Network interception set up
+[2026-06-09 00:31:34] INFO: INFO: Click the login button without filling any fields
+[2026-06-09 00:31:34] INFO: PASS: Login button clicked
+[2026-06-09 00:31:34] INFO: INFO: Verify frontend validation errors appear without calling the backend
+[2026-06-09 00:31:34] INFO: PASS: Validation errors shown, no backend request made
+[2026-06-09 00:31:34] INFO: PASS: No anomalies detected
+[2026-06-09 00:31:35] INFO: INFO: Read the placeholder text of the email input field
+[2026-06-09 00:31:35] INFO: PASS: Email field placeholder shows "Email"
+[2026-06-09 00:31:35] INFO: INFO: Read the placeholder text of the password input field
+[2026-06-09 00:31:35] INFO: PASS: Password field placeholder shows "Password"

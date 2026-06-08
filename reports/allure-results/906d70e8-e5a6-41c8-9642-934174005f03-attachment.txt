@@ -1,0 +1,4 @@
+[2026-06-09 00:32:04] INFO: INFO: Log in with valid email and password
+[2026-06-09 00:32:04] INFO: PASS: Login form submitted
+[2026-06-09 00:32:04] INFO: INFO: Verify user is redirected to the dashboard
+[2026-06-09 00:32:04] INFO: PASS: User redirected to dashboard

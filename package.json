@@ -1,0 +1,43 @@
+{
+  "name": "@qa-sandbox/advanced",
+  "version": "1.0.0",
+  "description": "QA Sandbox Playwright automation framework",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --project=ui-chromium",
+    "test:api": "npx playwright test --project=api",
+    "test:dev": "TEST_ENV=dev npx playwright test",
+    "test:staging": "TEST_ENV=staging npx playwright test",
+    "test:production": "TEST_ENV=production npx playwright test",
+    "analyze:har": "npx tsx scripts/analyze-har.ts",
+    "allure:generate": "allure generate reports/allure-results --clean -o reports/allure-report",
+    "allure:open": "allure open reports/allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandraMilenkovicHtec/qa-sandbox-advanced.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandraMilenkovicHtec/qa-sandbox-advanced/issues"
+  },
+  "homepage": "https://github.com/AleksandraMilenkovicHtec/qa-sandbox-advanced#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "allure-commandline": "^2.42.1",
+    "allure-playwright": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^6.0.3",
+    "zod": "^3.24.0"
+  }
+}
