@@ -21,6 +21,6 @@ reports/har/
 # Build
 dist/
 
-# Playwright MCP
-.playwright-mcp/
+# OS
+.DS_Store
 

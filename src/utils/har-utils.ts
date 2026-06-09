@@ -58,8 +58,8 @@ export const analyzeHar = (harPath: string, options?: AnalyzeOptions): HarAnomal
       anomalies.push({ type: 'large-payload', method, url: shortUrl, value: payloadSize, threshold: maxPayload });
     }
 
-    if (status >= 400) {
-      anomalies.push({ type: 'error-status', method, url: shortUrl, value: status, threshold: 400 });
+    if (status >= 500) {
+      anomalies.push({ type: 'error-status', method, url: shortUrl, value: status, threshold: 500 });
     }
   }
 
