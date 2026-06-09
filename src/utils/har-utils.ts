@@ -45,6 +45,7 @@ export const analyzeHar = (harPath: string, options?: AnalyzeOptions): HarAnomal
 
   for (const entry of har.log.entries) {
     const { method, url } = entry.request;
+    if (!url.includes('/api/')) continue;
     const shortUrl = url.replace(/https?:\/\/[^/]+/, '');
     const duration = entry.time ?? 0;
     const payloadSize = entry.response?.content?.size ?? 0;
