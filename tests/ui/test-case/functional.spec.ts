@@ -1,6 +1,7 @@
 import { test, expect } from '../../fixtures';
 import { logStep, randomTestCaseTitle, analyzeHar, HAR_DIR } from '../../../src/utils';
 import path from 'path';
+import fs from 'fs';
 
 const HAR_PATH = path.join(HAR_DIR, 'test-case-functional.har');
 
@@ -17,9 +18,13 @@ test.describe('Test Case - Functional', () => {
       await use(context);
       await context.close();
     },
-    page: async ({ context }, use) => {
+    page: async ({ context }, use, testInfo) => {
       const page = await context.newPage();
       await use(page);
+      const videoPath = await page.video()?.path();
+      if (videoPath && fs.existsSync(videoPath)) {
+        await testInfo.attach('video', { path: videoPath, contentType: 'video/webm' });
+      }
     },
   });
 

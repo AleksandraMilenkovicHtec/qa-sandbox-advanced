@@ -2,6 +2,7 @@ import { test, expect } from '../../fixtures';
 import { logStep, analyzeHar, HAR_DIR } from '../../../src/utils';
 import { USER_EMAIL, USER_PASSWORD } from '../../../src/config/environment';
 import path from 'path';
+import fs from 'fs';
 
 const HAR_PATH = path.join(HAR_DIR, 'login-functional.har');
 
@@ -17,9 +18,13 @@ test.describe('Login - Functional', () => {
       await use(context);
       await context.close();
     },
-    page: async ({ context }, use) => {
+    page: async ({ context }, use, testInfo) => {
       const page = await context.newPage();
       await use(page);
+      const videoPath = await page.video()?.path();
+      if (videoPath && fs.existsSync(videoPath)) {
+        await testInfo.attach('video', { path: videoPath, contentType: 'video/webm' });
+      }
     },
   });
 

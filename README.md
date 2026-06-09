@@ -269,7 +269,7 @@ Each job runs independently with `fail-fast: false`, meaning all browsers comple
 
 The live report is accessible at:
 ```
-https://<your-github-username>.github.io/<repository-name>/
+https://aleksandramilenkovichtec.github.io/qa-sandbox-advanced/
 ```
 
 ### Required GitHub Secrets
