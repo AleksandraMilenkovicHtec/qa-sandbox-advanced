@@ -3,6 +3,7 @@ import { logStep } from '../../../src/utils';
 
 test.describe('Login - Security', () => {
   test.use({ storageState: { cookies: [], origins: [] } });
+
   test.beforeEach(async ({ loginPage }) => { await loginPage.navigate(); });
 
   test('Page loads over HTTPS', async ({ page }) => {

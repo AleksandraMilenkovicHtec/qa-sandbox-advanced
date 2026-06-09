@@ -28,17 +28,6 @@ test.describe('Test Case - Functional', () => {
     },
   });
 
-  test.afterEach(async ({ testCasesListPage }) => {
-    if (createdTitle) {
-      logStep(`INFO: Delete test case "${createdTitle}" created during the test`);
-      await testCasesListPage.deleteTestCaseByTitle(createdTitle);
-      logStep(`PASS: Test case "${createdTitle}" deleted`);
-      createdTitle = null;
-    }
-  });
-
-  test.afterAll(() => { analyzeHar(HAR_PATH); });
-
   test('Create test case with required fields', async ({ page, newTestCasePage }) => {
     createdTitle = randomTestCaseTitle();
 
@@ -148,4 +137,15 @@ test.describe('Test Case - Functional', () => {
     await page.waitForURL('**/testcases');
     logStep('PASS: User returned to the test case list');
   });
+
+  test.afterEach(async ({ testCasesListPage }) => {
+    if (createdTitle) {
+      logStep(`INFO: Delete test case "${createdTitle}" created during the test`);
+      await testCasesListPage.deleteTestCaseByTitle(createdTitle);
+      logStep(`PASS: Test case "${createdTitle}" deleted`);
+      createdTitle = null;
+    }
+  });
+
+  test.afterAll(() => { analyzeHar(HAR_PATH); });
 });

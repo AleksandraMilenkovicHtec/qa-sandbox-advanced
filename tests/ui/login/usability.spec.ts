@@ -3,6 +3,7 @@ import { logStep } from '../../../src/utils';
 
 test.describe('Login - Usability', () => {
   test.use({ storageState: { cookies: [], origins: [] } });
+
   test.beforeEach(async ({ loginPage }) => { await loginPage.navigate(); });
 
   test('Labels and placeholders are correct', async ({ loginPage }) => {

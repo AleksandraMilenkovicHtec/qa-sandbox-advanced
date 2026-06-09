@@ -4,6 +4,7 @@ import { USER_EMAIL } from '../../../src/config/environment';
 
 test.describe('Login - Validation', () => {
   test.use({ storageState: { cookies: [], origins: [] } });
+
   test.beforeEach(async ({ loginPage }) => { await loginPage.navigate(); });
 
   test('Invalid email format shows error', async ({ loginPage }) => {

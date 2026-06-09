@@ -29,6 +29,7 @@ test.describe('Login - Functional', () => {
   });
 
   test.beforeEach(async ({ loginPage }) => { await loginPage.navigate(); });
+
   test.afterAll(() => { analyzeHar(HAR_PATH); });
 
   test('Login succeeds with valid credentials', async ({ page, loginPage }) => {
