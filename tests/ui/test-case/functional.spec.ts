@@ -11,7 +11,7 @@ test.describe('Test Case - Functional', () => {
     context: async ({ browser, storageState }, use) => {
       const context = await browser.newContext({
         recordHar: { path: HAR_PATH, urlFilter: /api/ },
-        recordVideo: { dir: 'test-results/videos' },
+        recordVideo: { dir: 'test-results/videos', size: { width: 1280, height: 720 } },
         storageState: storageState as string,
       });
       await use(context);
