@@ -1,9 +1,9 @@
 name: Nightly Tests
-
-on:
-  schedule:
-    - cron: '0 2 * * *'
-  workflow_dispatch:
+# This workflow runs the Playwright tests on a nightly basis and generates an Allure report.
+# on:
+#   schedule:
+#     - cron: '0 2 * * *'
+#   workflow_dispatch:
 
 permissions:
   contents: read
